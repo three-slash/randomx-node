@@ -1,0 +1,18 @@
+{
+  "name": "randomx-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "gypfile": true,
+  "repository": "https://github.com/tevador/randomx-service",
+  "author": "Ribhararnus Pracutian <oknoorap@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  },
+  "scripts": {
+    "init": "./scripts/init.sh",
+    "install": "yarn build:lib && yarn build:gyp",
+    "build:gyp": "node-gyp configure && node-gyp build",
+    "build:lib": "./scripts/build.sh"
+  }
+}
