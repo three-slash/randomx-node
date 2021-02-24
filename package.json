@@ -1,7 +1,8 @@
 {
   "name": "randomx-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "RandomX Node Batch Hasher",
+  "main": "randomx.js",
   "gypfile": true,
   "repository": "https://github.com/tevador/randomx-service",
   "author": "Ribhararnus Pracutian <oknoorap@gmail.com>",
