@@ -12,8 +12,9 @@
   },
   "scripts": {
     "preinstall": "yarn init:submodule",
-    "postinstall": "yarn build:lib && yarn build:gyp",
+    "postinstall": "yarn build",
     "init:submodule": "./scripts/init.sh",
+    "build": "yarn build:lib && yarn build:gyp",
     "build:gyp": "node-gyp configure && node-gyp build",
     "build:lib": "./scripts/build.sh"
   },
