@@ -1,3 +1,3 @@
-function batchVM(vm: any, hashes: string[]): Promise<any>;
-function batch(seed: string, hashes: string[]): Promise<any>;
-function createVM(seed: string): Promise<any>;
+export function batchVM(vm: any, hashes: string[]): Promise<string[]>;
+export function batch(seed: string, hashes: string[]): Promise<string[]>;
+export function createVM(seed: string): Promise<any>;
