@@ -1,5 +1,6 @@
 .vscode
-Randomx/*
-build/*
+Randomx
+build
 .editorconfig
 .gitignore
+.gitsubmodule
