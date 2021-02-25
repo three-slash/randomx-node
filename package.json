@@ -1,5 +1,5 @@
 {
-  "name": "randomx-node",
+  "name": "@oknoorap/randomx",
   "version": "1.0.0",
   "description": "RandomX Node Batch Hasher",
   "main": "randomx.js",
@@ -15,5 +15,8 @@
     "install": "yarn build:lib && yarn build:gyp",
     "build:gyp": "node-gyp configure && node-gyp build",
     "build:lib": "./scripts/build.sh"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

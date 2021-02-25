@@ -1,0 +1,8 @@
+.vscode
+Randomx/*
+scripts/*
+src/*
+build/*
+.editorconfig
+.gitignore
+.gitmodule
