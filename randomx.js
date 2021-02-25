@@ -23,9 +23,7 @@ function batchVM(vm, hashes) {
   }
 
   if (!Array.isArray(hashes)) {
-    throw new Error(
-      "Invalid hashes, hashes should be an Array of [nonce, blob]"
-    );
+    throw new Error("Invalid hashes, hashes should be an Array of string");
   }
 
   return new Promise((resolve, reject) => {
