@@ -1,6 +1,6 @@
 {
   "name": "@three-dash/randomx-node",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "RandomX Node Batch Hasher",
   "main": "randomx.js",
   "gypfile": true,
@@ -11,8 +11,8 @@
     "node-addon-api": "^3.1.0"
   },
   "scripts": {
+    "install": "yarn init && yarn build:lib && yarn build:gyp",
     "init": "./scripts/init.sh",
-    "install": "yarn build:lib && yarn build:gyp",
     "build:gyp": "node-gyp configure && node-gyp build",
     "build:lib": "./scripts/build.sh"
   },
