@@ -1,6 +1,6 @@
 {
   "name": "@three-dash/randomx-node",
-  "version": "1.0.0-beta.14",
+  "version": "1.0.0-beta.15",
   "description": "RandomX Node Batch Hasher",
   "main": "randomx.js",
   "types": "randomx.d.ts",
