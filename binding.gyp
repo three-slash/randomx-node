@@ -16,12 +16,12 @@
       'conditions': [
           ['OS=="linux"', {
             "libraries": [
-              "-Wl,-rpath,<!(pwd)/RandomX/build/librandomx.a"
+              "<(module_root_dir)/RandomX/build/librandomx.a"
             ],
           }],
           ['OS=="mac"', {
             "libraries": [
-              "-Wl,-rpath,<!(pwd)/RandomX/build/librandomx.a"
+              "<(module_root_dir)/RandomX/build/librandomx.a"
             ],
             'xcode_settings': {
               'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
@@ -32,7 +32,7 @@
           }],
           ['OS=="win"', {
             "libraries": [
-              "-Wl,-rpath,<!(pwd)/RandomX/build/randomx.lib"
+              "<(module_root_dir)/RandomX/build/randomx.lib"
             ],
           }],
        ],
