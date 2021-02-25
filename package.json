@@ -1,6 +1,6 @@
 {
   "name": "@three-dash/randomx-node",
-  "version": "1.0.0-beta.13",
+  "version": "1.0.0-beta.14",
   "description": "RandomX Node Batch Hasher",
   "main": "randomx.js",
   "types": "randomx.d.ts",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "preinstall": "yarn init:submodule",
-    "postinstall": "yarn build",
+    "install": "yarn build",
     "init:submodule": "./scripts/init.sh",
     "build": "yarn build:lib && yarn build:gyp",
     "build:gyp": "node-gyp configure && node-gyp build",
